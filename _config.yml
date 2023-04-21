@@ -34,18 +34,20 @@ github:
 twitter:
   username: Bibibig_LSJ # change to your twitter username
 
+res:
+  username: dltmdwls154@gmail.com # change to your twitter username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: LeeSeungJin
   email: dltmdwls154@gmail.com # change to your email address
-  links: https://seungjin-le.github.io
+  links: https://nasal-liver-b6b.notion.site/09696828711d488a99c30476205d0794
     # The first element serves as the copyright owner's link
     # - https://twitter.com/Bibibig_LSJ # change to your twitter homepage
     # - https://seungjin-le.github.io # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/profile.php?id=100006699462415
-    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 

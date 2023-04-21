@@ -10,9 +10,8 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-regular fa-circle-user"
-  noblank: true
+#- type: rss
+#  icon: "fas fa-regular fa-circle-user"
 
 # Uncomment and complete the url below to enable more contact options
 #
