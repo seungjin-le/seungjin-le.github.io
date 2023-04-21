@@ -1,6 +1,6 @@
 ---
 title: 짝수와 홀수
-author: Bibibig
+author: <author_id>
 categories: [CodingTest,Programmers]
 tags: [JavaScript,CodingTest,Programmers]
 math: true
@@ -18,6 +18,7 @@ mermaid: true
 
 
 ### 입출력 예
+
 |num| 	return |
 |:--:|:-------:|
 |3	|  "Odd"  |
