@@ -2,7 +2,6 @@
 title: 짝수와 홀수
 author:
   name: Bibibig
-  link:
 categories: [CodingTest,Programmers]
 tags: [JavaScript,CodingTest,Programmers]
 math: true
@@ -17,9 +16,9 @@ mermaid: true
 
 - num은 int 범위의 정수입니다.
 - 0은 짝수입니다.
-- 
-### 입출력 예
 
+
+### 입출력 예
 |num| 	return |
 |:--:|:-------:|
 |3	|  "Odd"  |
