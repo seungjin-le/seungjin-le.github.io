@@ -11,8 +11,9 @@
   noblank: true # open link in current tab
 
 - type: rss
-  icon: "fas fa-rss"
+  icon: "fas fa-regular fa-circle-user"
   noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

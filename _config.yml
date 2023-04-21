@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Front and Developer LeeSeungJin
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://seungjin-le.github.io/"
+url: "https://seungjin-le.github.io"
 
 github:
   username: seungjin-le # change to your github username
@@ -39,7 +39,7 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: LeeSeungJin
   email: dltmdwls154@gmail.com # change to your email address
-  links: https://seungjin-le.github.io/
+  links: https://seungjin-le.github.io
     # The first element serves as the copyright owner's link
     # - https://twitter.com/Bibibig_LSJ # change to your twitter homepage
     # - https://seungjin-le.github.io # change to your github homepage
