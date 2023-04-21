@@ -1,6 +1,8 @@
 ---
 title: 짝수와 홀수
-author: bibibig
+author:
+  name: Bibibig
+  link:
 categories: [CodingTest,Programmers]
 tags: [JavaScript,CodingTest,Programmers]
 math: true
