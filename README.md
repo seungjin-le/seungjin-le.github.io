@@ -1,6 +1,6 @@
 ## GitPage
 
-[List](https://seungjin-le.github.io/)
+[Link](https://seungjin-le.github.io/)
 
 ### Server Start
 ```shell
