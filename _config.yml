@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Front and Developer Bibibig
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://seungjin-le.github.io"
+url: "https://seungjin-le.github.io/"
 
 github:
   username: seungjin-le # change to your github username
