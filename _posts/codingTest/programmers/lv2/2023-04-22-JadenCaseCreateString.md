@@ -1,7 +1,7 @@
 ---
 title: "[ JS 코딩테스트 LV2] JadenCase 문자열 만들기"
 author: <author_id>
-categories: [CodingTest,Programmers]
+categories: [CodingTest,Programmers, "LV 2"]
 tags: [JavaScript,CodingTest,Programmers,LV_2]
 math: true
 toc: true
