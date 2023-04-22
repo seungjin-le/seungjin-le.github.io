@@ -1,5 +1,5 @@
 ---
-title: 짝수와홀수
+title: "[ JS 코딩테스트 ] 짝수와홀수"
 author: <author_id>
 categories: [CodingTest,Programmers]
 tags: [JavaScript,CodingTest,Programmers,LV_1]
