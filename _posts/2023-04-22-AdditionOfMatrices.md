@@ -23,7 +23,8 @@ image: /images/backgrounds/javascript.png
 |[[1],[2]]	|[[3],[4]]	|[[4],[6]]|
 
 
-풀이
+### 풀이
+
 ```javascript
 function solution(arr1, arr2) {
   // 1차 배열의 길이를 담은 a
