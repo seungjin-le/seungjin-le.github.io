@@ -1,14 +1,15 @@
 ---
-title: 짝수와 홀수
+title: 짝수와홀수
 author: <author_id>
 categories: [CodingTest,Programmers]
 tags: [JavaScript,CodingTest,Programmers]
 math: true
 toc: true
 mermaid: true
+image: /images/backgrounds/javascript.png
 ---
 
-## 문제 설명
+### 문제 설명
 정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성해주세요.
 
 ### 제한 조건
@@ -32,7 +33,7 @@ solution 함수는 num이라는 숫자형 매개변수를 받아 홀수와 짝�
 
 ```javascript
 function solution(num) {
-  return num %2 ? 'Odd' : 'Even';
+  return num % 2 ? 'Odd' : 'Even';
 }
 ```
 
