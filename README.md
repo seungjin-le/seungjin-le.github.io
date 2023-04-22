@@ -1,6 +1,8 @@
 ## GitPage
 
-[Link](https://seungjin-le.github.io/)
+[Blog Link](https://seungjin-le.github.io/)
+
+[ThemeDocs](https://chirpy.cotes.page/)
 
 ### Server Start
 ```shell
