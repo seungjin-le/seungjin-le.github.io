@@ -2,7 +2,7 @@
 title: 짝수와홀수
 author: <author_id>
 categories: [CodingTest,Programmers]
-tags: [JavaScript,CodingTest,Programmers]
+tags: [JavaScript,CodingTest,Programmers,LV_1]
 math: true
 toc: true
 mermaid: true
