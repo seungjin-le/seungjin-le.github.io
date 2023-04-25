@@ -6,7 +6,7 @@ tags: [ html, css]
 math: true
 toc: true
 mermaid: true
-image: ../images/backgrounds/css.png
+image: /images/backgrounds/css.png
 ---
 
 
