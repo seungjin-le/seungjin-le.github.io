@@ -28,4 +28,4 @@ div {
 ```
 
 #### 결과
-![image](../../../images/postImages/css/textOverFlow.png){: w="300" h="200"}
+![image](../../../images/postImages/css/textOverFlow.png)
