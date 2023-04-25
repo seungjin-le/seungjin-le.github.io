@@ -6,7 +6,6 @@ Gemfile.lock
 # Jekyll cache
 .jekyll-cache
 _site
-/images
 
 # RubyGems
 *.gem
