@@ -29,3 +29,4 @@ div {
 
 #### 결과
 
+![images](/images/postImages/css/textOverFlow.png){: w="300" h="300""}
