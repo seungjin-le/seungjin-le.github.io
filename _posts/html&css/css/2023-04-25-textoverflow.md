@@ -6,7 +6,7 @@ tags: [ html, css]
 math: true
 toc: true
 mermaid: true
-image: ./images/background/html.jpeg
+image: ../../../images/backgrounds/css.png
 ---
 
 
@@ -28,4 +28,4 @@ div {
 ```
 
 #### 결과
-[image](./images/postImages/css/textOverFlow.png){: w="300" h="200"}
+[image](../../../images/postImages/css/textOverFlow.png){: w="300" h="200"}
