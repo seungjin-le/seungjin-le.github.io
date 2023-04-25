@@ -29,3 +29,8 @@ image: "게시글 상단 메인 이미지"
 ---
 ```
 
+## 이미지 기능
+#### 사이즈 조절
+  ```markdown
+  [Desktop View](/assets/img/sample/mockup.png){: w="700" h="400" }
+  ```
