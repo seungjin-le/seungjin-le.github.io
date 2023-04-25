@@ -28,4 +28,4 @@ div {
 ```
 
 #### 결과
-![image](../../../images/postImages/css/textOverFlow.png)
+
