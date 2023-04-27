@@ -21,13 +21,15 @@ yarn create next-app {Project-Name} --typescript
 
 ### 기존에 생성된 프로젝트에 TS설치
 1. TypeScript설치
-  ```javascript
-  // npm
-  npm install --save-dev typescript @types/react @types/node
-  
-  // yarn
-  yarn add --dev typescript @types/react @types/node
-  ```
+>```javascript
+>// npm
+>npm install --save-dev typescript @types/react @types/node
+>
+>// yarn
+>yarn add --dev typescript @types/react @types/node
+>  ```
+>
+
 2. 기존 프로젝트 루트디렉토리에 "tsconfig.json"생성
 > 루트디렉토리는 프로젝트 최상위 디렉토리 입니다.
 >```javascript
