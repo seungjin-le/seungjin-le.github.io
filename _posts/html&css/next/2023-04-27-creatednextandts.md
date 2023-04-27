@@ -6,7 +6,7 @@ tags: [ Next.js, TypeScript ]
 math: true
 toc: true
 mermaid: true
-image: /images/backgrounds/typescript.jpeg
+image: /images/backgrounds/nextjs.png
 ---
 
 ### 새로운 프로젝트 생성
