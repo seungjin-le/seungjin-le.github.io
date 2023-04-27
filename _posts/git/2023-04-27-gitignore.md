@@ -16,7 +16,7 @@ image: /images/backgrounds/github.png
 
 ## .gitignore을 왜 사용 하는가?
 
-- 프로젝트를 하다보면 프로젝트 내부의 더미 파일이나 API Key등 외부에 공개하면 안되는 파일들이 있습니다 그런경우에 .gitignore라는 파일을 생성해서 관리한다면 원경저장소에 pushㄹ를 해도 노출되지 않는 장점이 있습니다
+- 프로젝트를 하다보면 프로젝트 내부의 더미 파일이나 API Key등 외부에 공개하면 안되는 파일들이 있습니다 그런경우에 .gitignore라는 파일을 생성해서 관리한다면 원경저장소에 push를 해도 노출되지 않는 장점이 있습니다
 
 ## .gitignore 생성 하기
 
@@ -33,5 +33,5 @@ image: /images/backgrounds/github.png
     ```
 
 
-#### [.gitignore의 내용을 자동으로 구서앻주는 사이트](https://www.toptal.com/developers/gitignore)
+#### [.gitignore의 내용을 자동으로 구성해주는 사이트](https://www.toptal.com/developers/gitignore)
 프로젝트에 사용된 언어, 개발툴, 프레임워크, OS 등 제외해야할 항목들을 생성해 줍니다
