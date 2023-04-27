@@ -1,5 +1,5 @@
 ---
-title: 'CSS Text… 처리'
+title: '[ CSS ] CSS Text… 처리'
 author: <author_id>
 categories: [ css ]
 tags: [ html, css]
