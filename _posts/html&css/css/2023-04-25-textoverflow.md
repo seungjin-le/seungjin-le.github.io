@@ -1,7 +1,7 @@
 ---
 title: '[ CSS ] CSS Text… 처리'
 author: <author_id>
-categories: [ css ]
+categories: [ html&css, css ]
 tags: [ html, css]
 math: true
 toc: true
