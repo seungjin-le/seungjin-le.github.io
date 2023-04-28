@@ -34,7 +34,7 @@ brew install tree
   ![tree2](/images/postImages/front/library/tree2.png)
 
 #### 결과
-```shell
+```markdown
 .
 ├── BULLETIN.md
 ├── CODE_OF_CONDUCT.md
