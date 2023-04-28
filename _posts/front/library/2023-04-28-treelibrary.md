@@ -25,15 +25,15 @@ brew install tree
 ### tree 패키지 사용 해보기
 
 #### 터미널에서 디렉토리 이동
-- ![tree1](/images/postImages/front/library/tree1.png)
+  ![tree1](/images/postImages/front/library/tree1.png)
 
 #### tree 명령어 실행
 사용법이 너무 쉬운 게 터미널에 간단하게 `tree`라고 입력하시면 됩니다.
 그러면 모든 디렉토리와 파일 개수까지 출력해 줍니다.
 
-- ![tree2](/images/postImages/front/library/tree2.png)
+  ![tree2](/images/postImages/front/library/tree2.png)
 
-
+#### 결과
 ```shell
 .
 ├── BULLETIN.md
