@@ -1,5 +1,5 @@
 ---
-title: "[ Docker ] Docker이란 무엇인가?"
+title: "[ Docker ] Docker란 무엇인가?"
 author: <author_id>
 categories: [ Front,  Docker]
 tags: [ Front, DevOps, Docker]
