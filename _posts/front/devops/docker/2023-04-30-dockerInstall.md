@@ -1,8 +1,8 @@
 ---
-title: "[ Docker ] Docker설치 해보기"
+title: "[ Mac Docker ] Docker설치 해보기"
 author: <author_id>
 categories: [ Front,  Docker]
-tags: [ Front, DevOps, Docker]
+tags: [ Front, DevOps, Docker, Mac]
 math: true
 toc: true
 mermaid: true
@@ -19,7 +19,7 @@ image: /images/backgrounds/docker.png
 
 링크를 클릭하면 PC OS에 맞게 다운로드 버튼이 나옵니다 여기서 `Download Docker DeskTop` 를 눌러
 
-`docker.dmg` 파일을 다운받은후 설치해줍니다.
+`docker.dmg` 파일을 다운받은 후 설치해줍니다.
 
 ## 2. 설치
 
@@ -33,5 +33,17 @@ image: /images/backgrounds/docker.png
 
 ![1](/images/postImages/front/docker/install/5.png)
 
-## 3. 설치완료
-![1](/images/postImages/front/docker/install/6.png)
+## 3. 설치완료(확인)
+설치가 끝나면 우측 상단에 도커 아이콘이 생긴걸 볼 수 있습니다
+
+![1](/images/postImages/front/docker/install/7.png)
+
+그리고 Docker Version 확인
+
+```shell
+docker -v
+```
+
+![1](/images/postImages/front/docker/install/8.png)
+
+
