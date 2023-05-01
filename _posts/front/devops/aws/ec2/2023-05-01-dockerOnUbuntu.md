@@ -40,16 +40,29 @@ image: /images/backgrounds/awsec2.png
 
 ![image](/images/postImages/front/aws/ec2/ec2_4.JPG)
 
-> 인스턴스가 생성됬으니 인스턴트 탭으로 이동
+> 인스턴스가 생성됬으니 EC2 인스턴트 탭으로 이동
 
 ![image](/images/postImages/front/aws/ec2/ec2_5.JPG)
 
-> 
+> 인스턴스를 선택후 연결버튼 클릭
 
 ![image](/images/postImages/front/aws/ec2/ec2_6.JPG)
+
+> 사용자 이름도 아무거나 입력하고 연결을 클릭시
+> Ubuntu를 실행중인 시스템의 명령 프롬프트(터미널)페이지로 로 이동되며, 이 화면에서는 
+> 시스템의 기본 정보와 상태가 표시되고 있습니다.
+> 
 ![image](/images/postImages/front/aws/ec2/ec2_7.JPG)
-![image](/images/postImages/front/aws/ec2/ec2_8.JPG)
+
+> 지금부터 `Docker`를 설치해주면 됩니다
+> 현제 `Ubuntu 22.04.2`버전에서 `Docker`를 설치하고 사용하는 방법까지 잘 정리된 사이트를 따라
+> [우분투에서 도커를 설치하고 사용하는 방법](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+> 
+
 ![image](/images/postImages/front/aws/ec2/ec2_9.JPG)
+
+> 설치 완료
+
 ![image](/images/postImages/front/aws/ec2/ec2_10.JPG)
 
-[우분투에서 도커를 설치하고 사용하는 방법](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+
