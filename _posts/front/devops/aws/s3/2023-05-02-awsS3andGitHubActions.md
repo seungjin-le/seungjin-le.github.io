@@ -16,15 +16,15 @@ image: /images/backgrounds/awss3.png
     - `Workflow` : `GitHub` 에 `Project`를`push` 한다면 GitHub에서는 이 프로젝트를 테스트를 합니다
   - `GitHub` 홈페이지에 접속후 `Repository` 에서 `Workflow` 를 생성할  `Project` 로 이동후 상단에 `Actions` 라는 탭을 클릭합니다.
 
-    ![1](/images/postImages/front/aws/s3/s3_1.png)
+    ![1](/images/postImages/front/aws/s3/s3-1.png)
 
   - 그러면 `GitHub`의 여러가지(배포, 보안, 자동화, 테스트 등) `Actions`를 볼 수 있습니다.
 
-    ![2](/images/postImages/front/aws/s3/s3_2.png)
+    ![2](/images/postImages/front/aws/s3/s3-2.png)
 
   - 그중 **`Continuous integration( 지속적인 통합 통칭 CI )`** 에서 `Node.js`를 선택해 줍니다.
 
-    ![3](/images/postImages/front/aws/s3/s3_3.png)
+    ![3](/images/postImages/front/aws/s3/s3-3.png)
 
   - 그러면 `/.github/workflows/node.js.yml` 생성하는 페이지가 나오는데 이미 기존적인 `CI` 셋팅이 되어 있습니다
   - node.js.yml
@@ -92,4 +92,4 @@ image: /images/backgrounds/awss3.png
     # 빌드와 테스트가 원활하게 진행되는지 확인할 수 있습니다.
   ```
 
-![4](/images/postImages/front/aws/s3/s3_4.png)
+![4](/images/postImages/front/aws/s3/s3-4.png)
