@@ -28,9 +28,11 @@ image: /images/backgrounds/awss3.png
 
   - 그러면 `/.github/workflows/node.js.yml` 생성하는 페이지가 나오는데 이미 기존적인 `CI` 셋팅이 되어 있습니다
   - node.js.yml
+
     > 저는 여기서 `run: npm ci` 를 `run: npm i` 로 수정했습니다.
 
     ```yaml
+    
     # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
     # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
     
