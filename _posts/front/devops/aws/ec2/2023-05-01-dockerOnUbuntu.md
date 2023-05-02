@@ -65,4 +65,6 @@ image: /images/backgrounds/awsec2.png
 
 ![image](/images/postImages/front/aws/ec2/ec2_10.JPG)
 
+> 아직 사용방법이 익숙하지 못해서 사용방법 포스팅은 추후에 작성하겠습니다.
+
 
