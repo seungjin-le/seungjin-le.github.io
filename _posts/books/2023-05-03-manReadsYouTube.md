@@ -6,8 +6,9 @@ tags: [ Books ]
 math: true
 toc: true
 mermaid: true
-image: /images/backgrounds/books/manReadsYouTube.png
 ---
+
+![1](/images/backgrounds/books/manReadsYouTube.png)
 
 > #### 치열한 경쟁 사회에서 피해자가 되는것만큼 달콤한 유혹은 없다
 > #### 그것은 자신이 경쟁 사회에서 패배한 이유를 추가하는 손수운 방법이기 때문이다.
