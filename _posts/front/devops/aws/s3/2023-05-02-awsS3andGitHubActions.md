@@ -92,4 +92,4 @@ image: /images/backgrounds/awss3.png
   # 빌드와 테스트가 원활하게 진행되는지 확인할 수 있습니다.
 ```
 
-- ![4](/images/postImages/front/aws/s3/s3_4.png)
+![4](/images/postImages/front/aws/s3/s3_4.png)
