@@ -1,12 +1,12 @@
 ---
 title: '[ 자기계발 ] "올바름이라는 착각" 중 마음에 들었던 부분'
 author: <author_id>
-categories: [ Front, AWS ]
-tags: [ Front, AWS,S3,GitHub]
+categories: [ Books ]
+tags: [ Books ]
 math: true
 toc: true
 mermaid: true
-image: /images/backgrounds/awss3.png
+image: /images/backgrounds/books/manReadsYouTube.png
 ---
 
 > #### 치열한 경쟁 사회에서 피해자가 되는것만큼 달콤한 유혹은 없다
