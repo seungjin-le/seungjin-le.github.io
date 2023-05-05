@@ -28,17 +28,17 @@ image: /images/backgrounds/awss3.png
 - 버킷 이름과 AWS 리전을 선택후 맨 하단에 버킷 생성 클릭.
   > AWS 리전(Region) : AWS 인프라를 지리적으로 나누어 배포한 것을 의미합니다. 사용자와 리전이 가까울수록 네트워크 지연을 최소화할 수 있습니다.
 
-![5](/images/postImages/front/aws/s3/s3_2_4.JPG)
+![4](/images/postImages/front/aws/s3/s3_2_4.JPG)
 
 - 이렇게 생성된 버킷을 볼 수 있습니다
 
-![6](/images/postImages/front/aws/s3/s3_2_5.JPG)
+![5](/images/postImages/front/aws/s3/s3_2_5.JPG)
 
 ### 4. 생성한 버킷을 웹사이트 호스팅을 위해서 사용할 수 있게 설정하기
 
 - 생성된 버킷의 이름을 클릭 시 해당 버킷의 정보 페이지로 이동해줍니다.
 
-![7](/images/postImages/front/aws/s3/s3_2_6.png)
+![6](/images/postImages/front/aws/s3/s3_2_6.png)
 
 - 속성 탭 맨 아래로 스크롤을 내려주면 아래에 `정적 웹 사이트 호스팅`섹션이 `비활성화`돼있는걸 볼 수 있는데 우측에 `편집하기`를 클릭해 줍니다.
 
@@ -51,11 +51,11 @@ image: /images/backgrounds/awss3.png
   > 
   >  따라서 인덱스 문서는 웹 사이트에 접근했을 때 기본적으로 로드되는 페이지를 지정하는 역할을 합니다. S3 버킷의 정적 웹 사이트 호스팅 설정에서 인덱스 문서를 지정하면, 해당 파일이 기본 페이지로 사용되며, 사용자가 웹 사이트에 접속할 때 해당 페이지가 자동으로 표시됩니다.
 
-![7](/images/postImages/front/aws/s3/s3_2_8.png)
+![8](/images/postImages/front/aws/s3/s3_2_8.png)
 
 - 그러면 호스팅을 편집했다는 알림을 받을 수 있습니다.
 
-![7](/images/postImages/front/aws/s3/s3_2_9.png)
+![9](/images/postImages/front/aws/s3/s3_2_9.png)
 
 - 다시 속성 탭 맨 아래에 `정적 웹 사이트 호스팅`을 보면  `버킷 웹 사이트 엔드포인트`가 생성된걸 볼 수 있습니다
 
@@ -70,7 +70,7 @@ image: /images/backgrounds/awss3.png
   - `ap-northeast-2` : AWS 리전을 나타냅니다. 저의 경우 아까 선택한, 아시아 태평양 북동부 2 리전(서울)입니다.
   - `amazonaws.com` : AWS의 도메인입니다.
 
-![7](/images/postImages/front/aws/s3/s3_2_10.png)
+![10](/images/postImages/front/aws/s3/s3_2_10.png)
 
 
 
