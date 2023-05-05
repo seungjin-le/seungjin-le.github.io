@@ -32,7 +32,7 @@ image: /images/backgrounds/awss3.png
 
 - 이렇게 생성된 버킷을 볼 수 있습니다
 
-![5](/images/postImages/front/aws/s3/s3_2_5.JPG)
+![5](/images/postImages/front/aws/s3/s3awsS3andGitHubActions2/s3_2_5.JPG)
 
 ### 4. 생성한 버킷을 웹사이트 호스팅을 위해서 사용할 수 있게 설정하기
 
