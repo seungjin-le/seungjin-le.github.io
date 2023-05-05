@@ -9,7 +9,7 @@ mermaid: true
 image: /images/backgrounds/awss3.png
 ---
 
-
+<!--
 ### 1. AWS S3 서비스에 가기
 
 ### 2. AWS S3 버킷 만들기
@@ -19,4 +19,4 @@ image: /images/backgrounds/awss3.png
 ### 4. 생성한 버킷을 웹사이트 호스팅을 위해서 사용할 수 있게 설정
   - #### AWS S3 서비스에 가기
   - #### 정적 웹 사이트 호팅
-
+-->
