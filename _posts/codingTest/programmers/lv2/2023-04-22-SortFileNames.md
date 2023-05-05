@@ -61,7 +61,7 @@ image: /images/backgrounds/javascript.png
 ```jsx
 const solution = (files) => {
     // 정규식을 이용.
-    // d+는 숫자로 된 문자 1개 이상인 문자열을 의미하고 g는 모든 패턴을 찾으라는 의미
+    // awsS3andGitHubActions2+는 숫자로 된 문자 1개 이상인 문자열을 의미하고 g는 모든 패턴을 찾으라는 의미
     const regex = /\d+/g;
     // files를 정렬하기 위해 sort함수를 사용
     files.sort((a, b) => {
