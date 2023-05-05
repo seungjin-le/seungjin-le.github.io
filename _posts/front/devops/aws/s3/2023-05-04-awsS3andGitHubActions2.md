@@ -28,11 +28,11 @@ image: /images/backgrounds/awss3.png
 - 버킷 이름과 AWS 리전을 선택후 맨 하단에 버킷 생성 클릭.
   > AWS 리전(Region) : AWS 인프라를 지리적으로 나누어 배포한 것을 의미합니다. 사용자와 리전이 가까울수록 네트워크 지연을 최소화할 수 있습니다.
 
-![4](/images/postImages/front/aws/s3awsS3andGitHubActions2/s3_2_4.JPG)
+![4](/images/postImages/front/aws/s3/awsS3andGitHubActions2/s3_2_4.JPG)
 
 - 이렇게 생성된 버킷을 볼 수 있습니다
 
-![5](/images/postImages/front/aws/s3/s3awsS3andGitHubActions2/s3_2_5.JPG)
+![5](/images/postImages/front/aws/s3/awsS3andGitHubActions2/s3_2_5.JPG)
 
 ### 4. 생성한 버킷을 웹사이트 호스팅을 위해서 사용할 수 있게 설정하기
 
