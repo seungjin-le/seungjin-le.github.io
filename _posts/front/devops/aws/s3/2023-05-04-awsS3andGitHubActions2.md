@@ -58,7 +58,17 @@ image: /images/backgrounds/awss3.png
 ![7](/images/postImages/front/aws/s3/s3_2_9.png)
 
 - 다시 속성 탭 맨 아래에 `정적 웹 사이트 호스팅`을 보면  `버킷 웹 사이트 엔드포인트`가 생성된걸 볼 수 있습니다
+
+
 - AWS는 호스팅이 활성화된 버킷에 대한 고유한 URL을 생성합니다. 이 URL은 생성된 S3 버킷에 대한 정적 웹 사이트의 공개 엔드포인트입니다. 
+
+
+- URL을 해석하면
+  - `http://` : 프로토콜을 나타냅니다. 여기서는 HTTP 프로토콜을 사용하고 있습니다.
+  - `react-s3-action-test-bucket` : 아까 생성한 버킷의 이름입니다.
+  - `s3-website` : S3 버킷을 웹 사이트로 호스팅하기 위한 URL 구성 요소입니다.
+  - `ap-northeast-2` : AWS 리전을 나타냅니다. 저의 경우 아까 선택한, 아시아 태평양 북동부 2 리전(서울)입니다.
+  - `amazonaws.com` : AWS의 도메인입니다.
 
 ![7](/images/postImages/front/aws/s3/s3_2_10.png)
 
