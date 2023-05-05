@@ -2,14 +2,13 @@
 title: 'GitHub Actions를 이용한 AWS S3로 앱 자동 배포하기( 2 작성중 )'
 author: <author_id>
 categories: [ Front, AWS ]
-tags: [ Front, AWS,S3,GitHub]
+tags: [ Front, AWS, S3, GitHub]
 math: true
 toc: true
 mermaid: true
 image: /images/backgrounds/awss3.png
 ---
 
-<!--
 ### 1. AWS S3 서비스에 가기
 
 ### 2. AWS S3 버킷 만들기
@@ -19,4 +18,4 @@ image: /images/backgrounds/awss3.png
 ### 4. 생성한 버킷을 웹사이트 호스팅을 위해서 사용할 수 있게 설정
   - #### AWS S3 서비스에 가기
   - #### 정적 웹 사이트 호팅
--->
+
