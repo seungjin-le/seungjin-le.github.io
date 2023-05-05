@@ -31,7 +31,7 @@ image: /images/backgrounds/awss3.png
     > 저는 여기서 `run: npm ci` 를 `run: npm i` 로 수정했습니다.
     > 수정이 끝나면 Start Commit 를 클릭해서 프로젝트 루트 디렉토리에 .github/workflows/node.js.yml 추가해줍니다. 
 
-  ```javascript
+  ```yaml
   # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
   # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs    
     name: Node.js CI
