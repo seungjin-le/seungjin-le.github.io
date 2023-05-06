@@ -14,7 +14,7 @@ image: /images/backgrounds/awss3.png
  
  `.github/workflows/node.js.yml`파일에 테스트까지 성공적으로 끝나면 `AWS S3 버킷에`소스코드를 전송할 코드를 추가해줍니다.   
 
- ### [S3애 소스코드 전송방법 링크](github.com/awact/s3-action)
+ ### [S3애 소스코드 전송방법 링크](https://github.com/awact/s3-action)
 
  이부분만 복사해서 `.github/workflows/node.js.yml`마지막에 복붙해줍니다.**(들여쓰기 중요)**
  
@@ -85,6 +85,7 @@ image: /images/backgrounds/awss3.png
    > 4. 데이터 분석 및 시각화: CSV 파일은 데이터 분석 및 시각화를 수행하는 데 사용되는 도구 및 라이브러리와 호환되는 표준 데이터 형식입니다. 이를 통해 데이터 사이언티스트와 분석가들은 손쉽게 데이터를 다룰 수 있습니다.
    >
    > 5. 데이터 전송 및 API 통합: 데이터를 전송하거나 다양한 API와 통합할 때 CSV 형식이 사용됩니다. 이를 통해 서로 다른 플랫폼 및 시스템 간에 데이터가 원활하게 이동할 수 있습니다.
+
    - ![10](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_10.png)
    - ##### 생성 후 사용자 페이지로 이동하면 사용자가 추가된 걸 볼 수 있습니다.
    - ![9](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_9.png)
