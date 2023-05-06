@@ -9,7 +9,7 @@ mermaid: true
 image: /images/backgrounds/awss3.png
 ---
 
-### 1. AWS S3 서비스에 가기경한
+### 1. AWS S3 서비스에 이동하기
 
 - AWS에 로그인한다음 콘솔홈으로 이동해줍니다
 
