@@ -87,7 +87,8 @@ image: /images/backgrounds/awss3.png
      - 코드를 작성후 `변경 사항 저장`한다음 다시 `속성` 탭 으로 이동후 `버킷 엔드 포인트`로 가보면
      - ![6](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_5.png)
      - 아까와는 다른 오류가 보이는데 이건 `AWS S3 버킷에` GitHub Actions를 이용한 AWS S3로 앱 자동 배포하기( 2 )에서  
-정적 웹사이트 호스팅 설정할때 입력한 `index.html`파일이 없기때문에 출력되는 겁니다.  
+정적 웹사이트 호스팅 설정할때 입력한 `index.html`파일이 없기때문에 출력되는 겁니다.
+     - ![7](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_6.png)
 
 
 
