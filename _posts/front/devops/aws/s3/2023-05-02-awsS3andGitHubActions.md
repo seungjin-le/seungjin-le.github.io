@@ -94,4 +94,4 @@ image: /images/backgrounds/awss3.png
 
 - 다 작성한다음 `Start Commit`버튼을 클릭하면 프로젝트에 추가된 걸 볼 수 있습니다
 
-![4](/images/postImages/front/aws/s3/s3-4.png)
+![4](/images/postImages/front/aws/s3/awsS3andGitHubActions/s3-4.png)
