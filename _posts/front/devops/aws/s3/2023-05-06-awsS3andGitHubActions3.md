@@ -29,7 +29,7 @@ image: /images/backgrounds/awss3.png
   2. 버킷 정책 작성
      - 퍼블릭 엑세스 차단을 비활성화 했으니 다음은 버킷 정책을 작성해 줍니다.
      - ![5](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_4.JPG)
-     - [AWS S3 버킷 정책 작성 예제](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html)링크
+     - [AWS S3 버킷 정책 작성 예제 링크](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html)
      - 위 링크에서 버킷 정책 예제 JSON코드를 복사해서 붙여 넣기 해줍니다.
      - ```javascript
        {
