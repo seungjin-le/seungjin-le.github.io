@@ -12,7 +12,7 @@ image: /images/backgrounds/awss3.png
 ### 1. 버킷 엔드 포인트 접속
 버킷 웹사이트 엔드 포인트로 접속해보면 이런 페이지가 나옵니다
 
-![1]()
+![1](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_1.JPG)
 
 >이 오류는 `AWS S3 버킷에 대한 접근이 거부되었다는 것`을 의미합니다. `403 Forbidden` 상태 코드와 함께 `AccessDenied` 메시지가 표시되어 접근이 거부된 것입니다.  
 >  
@@ -20,14 +20,15 @@ image: /images/backgrounds/awss3.png
 
 ### 2. 버킷 정책 변경
 권한 탭으로 이동 하면 이런 페이지가 나옵니다
-![2]()
+![2](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_2.JPG)
 여기서 순서대로 
   1. 퍼블릭 액세스 차단(버킷 설정)
      - 퍼블릭 액세스 차단이 활성화 되어 있다는건 차단 되있다는것이니 편집하기 버튼을 눌러 편집 페이지로 이동후 `모든 퍼블릭 엑세스 차단`을 풀어줍니다.
      - 그리고 변경사항 저장 버튼을 누른후 확인 모달에 `확인`을 입력후 저장
-     - ![3]()
+       ![3](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_3.JPG)
   2. 버킷 정책 작성
      - 퍼블릭 엑세스 차단을 비활성화 했으니 다음은 버킷 정책을 작성해 줍니다.
+     - ![5](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_4.JPG)
      - [AWS S3 버킷 정책 작성 예제](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html)링크
      - 위 링크에서 버킷 정책 예제 JSON코드를 복사해서 붙여 넣기 해줍니다.
      ```javascript
@@ -84,7 +85,12 @@ image: /images/backgrounds/awss3.png
      
      ```
      - 코드를 작성후 `변경 사항 저장`한다음 다시 `속성` 탭 으로 이동후 `버킷 엔드 포인트`로 가보면
-     - ![5]()
+     - ![6](/images/postImages/front/aws/s3/awsS3andGitHubActions3/s3_3_5.png)
      - 아까와는 다른 오류가 보이는데 이건 `AWS S3 버킷에` GitHub Actions를 이용한 AWS S3로 앱 자동 배포하기( 2 )에서  
 정적 웹사이트 호스팅 설정할때 입력한 `index.html`파일이 없기때문에 출력되는 겁니다.  
+
+
+
+
+
 
