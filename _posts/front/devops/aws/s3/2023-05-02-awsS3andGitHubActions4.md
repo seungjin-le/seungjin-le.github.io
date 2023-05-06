@@ -20,14 +20,14 @@ image: /images/backgrounds/awss3.png
 
 ```yaml
 - uses: awact/s3-action@master
-     with:
-       args: --acl public-read --follow-symlinks --delete
-     env:
-       SOURCE_DIR: './public'
-       AWS_REGION: 'ap-northeast-2'
-       AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  with:
+    args: --acl public-read --follow-symlinks --delete
+   env:
+    SOURCE_DIR: './public'
+    AWS_REGION: 'ap-northeast-2'
+    AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 ```
  
 #### 위 코드에서 각 코드들이 하는 역할입니다.
