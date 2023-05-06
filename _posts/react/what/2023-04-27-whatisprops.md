@@ -1,7 +1,7 @@
 ---
 title: "[ React ] Props란?"
 author: <author_id>
-categories: [ React, Props]
+categories: [ React, Development ]
 tags: [ React, Props]
 math: true
 toc: true

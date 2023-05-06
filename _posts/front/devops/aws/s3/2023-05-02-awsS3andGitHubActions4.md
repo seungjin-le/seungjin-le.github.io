@@ -115,12 +115,12 @@ image: /images/backgrounds/awss3.png
    - #### 처음에 수정한 `.github/workflows/node.js.yml`파일을 GitHub에 Push해줍니다.
    - #### 그리고 `Project Repository`의 `Actions` 탭으로 이동해보면 에러가 난걸 볼 수 있습니다.
    - ![2](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_2.png)
-   - #### 에러가 발생한 빌드를 클릭했을때 'Run npm test'에서 에러가 발생했을 경우
+   1. #### 에러가 발생한 빌드를 클릭했을때 'Run npm test'에서 에러가 발생했을 경우
      - ![2](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_2.png)
        > 이 경우에는 테스트 파일 을 찾을 수 없어서 발생한 경우 입니다.
        > 이럴때는  Jest, Mocha, Jasmine 등의 테스트 프레임워크를 사용하여 테스트를 작성하거나
        >  `.github/workflows/node.js.yml`에서 `run: npm test`코드를 `run: npm test -- --passWithNoTests`로 수정해주면 됩니다.
-   - #### `test`파일이 있을경우 우측 상단에 `Re-Run failed jobs`버튼을 클릭해 다시 빌드 합니다.
+   2. #### `test`파일이 있을경우 우측 상단에 `Re-Run failed jobs`버튼을 클릭해 다시 빌드 합니다.
 10. #### 수정후 다시 GitHub에 Push
     - ![1](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_1.png)
     - ![14](/images/postImages/front/aws/s3/awsS3andGitHubActions4/s3_4_14.png)
