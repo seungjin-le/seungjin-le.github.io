@@ -9,7 +9,7 @@ mermaid: true
 image: /images/backgrounds/awss3.png
 ---
 
-### 1. AWS S3 서비스에 가기
+### 1. AWS S3 서비스에 가기경한
 
 - AWS에 로그인한다음 콘솔홈으로 이동해줍니다
 
@@ -40,7 +40,7 @@ image: /images/backgrounds/awss3.png
 
 ![6](/images/postImages/front/aws/s3/awsS3andGitHubActions2/s3_2_6.png)
 
-- 속성 탭 맨 아래로 스크롤을 내려주면 아래에 `정적 웹 사이트 호스팅`섹션이 `비활성화`돼있는걸 볼 수 있는데 우측에 `편집하기`를 클릭해 줍니다.
+- 속성 탭 맨 아래로 스크롤을 내려주면 아래에 `정적 웹 사이트 호스팅`섹션이 `비활성화`돼있는걸 볼 수 있는데 우측에 `편집`버튼을 클릭해 줍니다.
 
 ![7](/images/postImages/front/aws/s3/awsS3andGitHubActions2/s3_2_7.png)
 
