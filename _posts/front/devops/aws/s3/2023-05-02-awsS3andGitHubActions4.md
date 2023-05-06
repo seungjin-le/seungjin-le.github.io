@@ -29,21 +29,23 @@ image: /images/backgrounds/awss3.png
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 ```
- 
+
+
+
 #### 위 코드에서 각 코드들이 하는 역할입니다.
  
-- ##### `uses` : awact/s3-action@master - 이 액션은 awact의 s3-action 저장소의 마스터 브랜치를 사용합니다. 이 액션은 AWS S3 버킷에 파일을 업로드하기 위한 것입니다.
-  - ##### `with` :
-    - ##### `args` : AWS CLI 명령에 전달되는 추가 인수입니다. 위 코드에서는 `--acl public-read`, `--follow-symlinks`, `--delete` 옵션을 사용합니다.
-      - ##### `--acl public-read` : 업로드된 객체에 대한 공개 읽기 권한을 설정합니다.
-      -   ##### `--follow-symlinks` : 심볼릭 링크를 따르고 대상 파일을 업로드합니다.
-      -   ##### `--delete` : 원격 버킷에 있지만 로컬에 없는 파일을 삭제합니다.
-  - ##### `env` : 이 단계에서 사용할 환경 변수를 설정합니다.
-    - ##### `SOURCE_DIR` : 업로드할 파일이 있는 로컬 디렉토리 경로입니다. 여기서는 ./public을 사용합니다.
-    - ##### `AWS_REGION` : 사용할 AWS 리전을 지정합니다. 예시에서는 'us-east-1'을 사용하고 있습니다.
-    - ##### `AWS_S3_BUCKET` : 업로드할 AWS S3 버킷 이름을 저장하고 있는 GitHub secrets 변수입니다.
-    - ##### `AWS_ACCESS_KEY_ID` : AWS 계정의 액세스 키 ID를 저장하고 있는 GitHub secrets 변수입니다.
-    - ##### `AWS_SECRET_ACCESS_KEY` : AWS 계정의 시크릿 액세스 키를 저장하고 있는 GitHub secrets 변수입니다.
+- `uses` : awact/s3-action@master - 이 액션은 awact의 s3-action 저장소의 마스터 브랜치를 사용합니다. 이 액션은 AWS S3 버킷에 파일을 업로드하기 위한 것입니다.
+- `with` :
+  - `args` : AWS CLI 명령에 전달되는 추가 인수입니다. 위 코드에서는 `--acl public-read`, `--follow-symlinks`, `--delete` 옵션을 사용합니다.
+    - `--acl public-read` : 업로드된 객체에 대한 공개 읽기 권한을 설정합니다.
+    - `--follow-symlinks` : 심볼릭 링크를 따르고 대상 파일을 업로드합니다.
+    - `--delete` : 원격 버킷에 있지만 로컬에 없는 파일을 삭제합니다.
+-  `env` : 이 단계에서 사용할 환경 변수를 설정합니다.
+  -  `SOURCE_DIR` : 업로드할 파일이 있는 로컬 디렉토리 경로입니다. 여기서는 ./public을 사용합니다.
+  -  `AWS_REGION` : 사용할 AWS 리전을 지정합니다. 예시에서는 'us-east-1'을 사용하고 있습니다.
+  -  `AWS_S3_BUCKET` : 업로드할 AWS S3 버킷 이름을 저장하고 있는 GitHub secrets 변수입니다.
+  -  `AWS_ACCESS_KEY_ID` : AWS 계정의 액세스 키 ID를 저장하고 있는 GitHub secrets 변수입니다.
+  -  `AWS_SECRET_ACCESS_KEY` : AWS 계정의 시크릿 액세스 키를 저장하고 있는 GitHub secrets 변수입니다.
 
 ---
 
