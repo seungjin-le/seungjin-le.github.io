@@ -9,15 +9,15 @@ mermaid: true
 image: /images/backgrounds/react.png
 ---
 
->이전에 외주를 하는 곳에서 UI 라이브러리를 사용중에 라이브러리의 모달을 닫는 함수 Props를  
-> 
->사용 시 useState의 변화가 생기지 않아서 모달을 닫는 Props를 닫고 새로 기능을 구현했습니다.
+이전에 외주를 하는 곳에서 UI 라이브러리를 사용중에 라이브러리의 모달을 닫는 함수 Props를  
+ 
+사용 시 useState의 변화가 생기지 않아서 모달을 닫는 Props를 닫고 새로 기능을 구현했습니다.
 
 ![1](/images/postImages/react/modalexternalclickdetection.png)
 
->모달 BackGround에 따로 ClassName이나 ID 값을 부여하거나 변경할 수가 없어서 여러 방법을 찾다가 이 방법을 사용했습니다.  
-> 
->이 방법은 모달을 클릭해도 동작하는 방법이라 그다지 효율이 좋다고 볼 수 없습니다.
+모달 `BackGround`에 따로 `ClassName`이나 `ID`값을 부여하거나 변경할 수가 없어서 여러 방법을 찾다가 이 방법을 사용했습니다.  
+ 
+이 방법은 모달을 클릭해도 동작하는 방법이라 그다지 효율이 좋다고 볼 수 없습니다.
 
 ### Modal.js
 ```javascript
