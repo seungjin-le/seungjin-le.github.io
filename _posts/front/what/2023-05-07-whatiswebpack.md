@@ -6,6 +6,7 @@ tags: [ Front, bundler, WebPack ]
 math: true
 toc: true
 mermaid: true
+image: /images/backgrounds/webpack.png
 ---
 
 ### WebPack이란?
