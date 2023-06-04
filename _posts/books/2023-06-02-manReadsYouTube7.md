@@ -1,5 +1,5 @@
 ---
-title: '[ 자기 계발 ] "올바름이라는 착각" 중 마음에 들었던 부분 8'
+title: '[ 자기 계발 ] "올바름이라는 착각" 중 마음에 들었던 부분 7'
 author: <author_id>
 categories: [ Books ]
 tags: [ Books ]
