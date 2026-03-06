@@ -4,6 +4,8 @@
 
 - ### [ ThemeDocs ](https://chirpy.cotes.page/)
 
+- ### [ GitHub ](https://github.com/seungjin-le)
+
 - ### Server Start
   ```shell
   bundle exec jekyll s
